@@ -1,0 +1,222 @@
+@font-face {
+              font-family: "Open Sans";
+              font-weight: normal;
+              font-style: normal;
+              src: url("../fonts/Open-Sans/OpenSans-Regular.eot");
+              src: url("../fonts/Open-Sans/OpenSans-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/Open-Sans/OpenSans-Regular.woff") format("woff"), url("../fonts/Open-Sans/OpenSans-Regular.ttf") format("truetype");
+}
+body {
+    font-family:  'EB Garamond', sans-serif;
+    font-size: 90%;
+    color: #666;
+    background-color: #5D5C61;}
+li {
+    list-style-image: url("images/icon-plus.png");
+    line-height: 1.6em;}
+
+
+.title {
+    float: left;
+    width: 160px;
+    clear: left;}
+
+.page {
+    max-width: 940px;
+    min-width: 720px;
+    margin: 10px auto 10px auto;
+    
+    border: 4px  #000;
+    background-color: #f6f4e8;
+    vertical-align: baseline;
+}
+.center-mid-1{
+    width: 940px;
+    background-color: #BEB594;
+    padding-bottom: 15px;
+    padding-top: 5px;
+    }
+
+.center-mid-2{
+    width: 940px;
+    background-color: #efeae6;
+    padding-bottom: 15px;
+    padding-top: 5px;
+    }
+
+.center-mid-3{
+    width: 940px;
+    background-color: #dee1e5;
+    padding-bottom: 15px;
+    padding-top: 5px;
+    }
+
+.center-2{
+    width: 940px;
+    margin: auto;
+    padding-bottom: 15px;
+    padding-top: 5px;
+    }
+
+.center-3{
+    width: 300px;
+    margin: 0 0;
+    }
+
+.img-1{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.img-2{
+    margin: auto;
+    width: 30%;
+    text-align: center;
+}
+.img-3{
+    margin: auto;
+    width: 30%;
+    display: block;
+    
+}
+.center-text {
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.right-text{
+    text-align: right;
+    display: inline;
+}
+.center-2>h1, .center-2>p{
+    text-align: center;
+}
+
+h1.center-text
+{
+    font-family:  'Gill Sans', sans-serif;
+    font-size: 550%;
+}
+iframe{
+    width: 940px;
+}
+}
+
+
+.menu-holder {
+float: right;
+max-width: 80%;
+position: fixed;
+text-align: center;
+height: 100%;
+background-color: #ffffff;
+right: -100%;
+top: 0;
+transition: right .3s ease;
+width: 100%;
+overflow: auto;
+max-width: 100%;
+z-index: 99;
+ }     
+
+ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+    }
+
+ul li {
+    display: inline;
+    padding: 10px;
+    float: right;
+}
+
+ul li a, 
+ul a :hover, 
+ul li a:focus, 
+ul li a:active {
+border: none;
+text-decoration: none;
+color: inherit;
+}
+
+.smlogo{
+    height: 21.3px;
+    width: 17px;
+    margin: auto;
+}
+
+.footer{
+    text-align: center;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  font-family: Arial;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  border: none;
+  outline: none;
+  background-color: inherit;
+  font-family: inherit; 
+  margin: 0; 
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: #f9f9f9;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 106px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+.column-1 {
+  background-color: #f6f4e8;
+  width: 50%;
+  float: left;
+}
+
+.column-2 {
+  background-color: #f6f4e8;
+  width: 50%;
+  float: left;
+}
+
